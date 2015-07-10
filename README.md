@@ -17,7 +17,7 @@ nano config
 
 Host git-codecommit.*.amazonaws.com
   User [YOUR_SSH_KEY_ID_FROM_IAM]
-  IdentityFile /Users/andrewpuch/Desktop/codecommit/
+  IdentityFile ~/.ssh/codecommit_rsa
 ```
 
 Now lets test to verify it works.
