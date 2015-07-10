@@ -6,11 +6,15 @@ Note: This is for Mac/Linux users.
 cd $HOME/.ssh
 ssh-keygen
 [here just create the name codecommit_rsa and leave all fields blank *just click enter*]
-touch config
-chmod 600 config
+cat codecommit_rsa.pub
 ```
 
 Now we need to enter our codecommit_rsa.pub into IAM.
+
+```
+touch config
+chmod 600 config
+```
 
 ```
 nano config
